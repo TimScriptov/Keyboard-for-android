@@ -12,7 +12,7 @@ public class Constants {
     }
 
     public enum KEYS_TYPE {
-        SYMBOLS, ENGLISH, RUSSIAN
+        SYMBOLS, ENGLISH, RUSSIAN, SYMBOLS_TWO
     }
     
 }

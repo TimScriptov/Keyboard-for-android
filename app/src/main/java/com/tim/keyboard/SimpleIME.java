@@ -33,6 +33,10 @@ public class SimpleIME extends InputMethodService
         return mKeyboardView;
     }
 
+    /**
+	 * @param locale - клавиши клавиатуры
+     * @return localized keyboard
+     */
     private Keyboard getKeyboard(Constants.KEYS_TYPE locale) {
         switch (locale) {
             case RUSSIAN:
@@ -46,6 +50,11 @@ public class SimpleIME extends InputMethodService
         }
     }
 
+    /**
+	 * Воспроизведение звука при нажатии клавиши
+     *
+	 * @param keyCode нажатой клавиши
+     */
     private void playClick(int keyCode) {
         AudioManager am = (AudioManager) getSystemService(AUDIO_SERVICE);
         switch (keyCode) {

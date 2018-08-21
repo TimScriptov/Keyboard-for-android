@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.inputmethodservice.KeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:latin="http://schemas.android.com/apk/res/com.tim.keyboard"
+	android:id="@+id/keyboard"
+	android:layout_alignParentBottom="true"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#c0000000"
+	android:verticalCorrection="0dip"
+	android:keyBackground="@drawable/btn_keyboard_key"
+	android:keyTextColor="#FFFFFFFF"
+	android:shadowColor="#FF33B5E5"
+	android:shadowRadius="9"/>
